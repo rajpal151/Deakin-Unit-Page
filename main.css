@@ -1,19 +1,50 @@
-
-
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 h2 {
   font-size: 25px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 h3 {
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 p {
   font-size: 14px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
 
+/* Add a class for the header background color */
 
+/* Style the table */
+.unit-details {
+  border-collapse: collapse; /* Remove cell spacing */
+  width: 100%;
+}
+
+.unit-details th, .unit-details td {
+  border: 1px solid #ddd; /* Add borders to table cells */
+  padding: 8px;
+  text-align: left;
+}
+
+.unit-details th {
+  background-color: #f2f2f2; /* Gray background color for table headers */
+}
+
+/* Style the link */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+div {
+  background-color: darkcyan;
+  text-align: right;
+ }
